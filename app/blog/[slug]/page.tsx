@@ -93,7 +93,7 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
 
       {/* Content */}
       <article className="prose prose-lg max-w-none">
-        <div 
+        <div  
           className="markdown-content"
           dangerouslySetInnerHTML={{ 
             __html: post.content
