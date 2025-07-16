@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardContent } from "../../components/ui/Card";
 import { getBlogPosts } from "../../lib/blog";
-
+ 
 export const metadata = {
   title: "Blog - NextJS Boilerplate",
   description: "Learn about Next.js, React, TypeScript, and modern web development best practices.",
