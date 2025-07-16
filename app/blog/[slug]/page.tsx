@@ -137,64 +137,6 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        .markdown-content {
-          line-height: 1.7;
-        }
-        .markdown-content h1 {
-          font-size: 2rem;
-          font-weight: bold;
-          margin: 2rem 0 1rem 0;
-          line-height: 1.2;
-        }
-        .markdown-content h2 {
-          font-size: 1.5rem;
-          font-weight: bold;
-          margin: 1.5rem 0 0.75rem 0;
-          line-height: 1.3;
-        }
-        .markdown-content h3 {
-          font-size: 1.25rem;
-          font-weight: bold;
-          margin: 1.25rem 0 0.5rem 0;
-          line-height: 1.4;
-        }
-        .markdown-content p {
-          margin: 1rem 0;
-        }
-        .markdown-content ul {
-          margin: 1rem 0;
-          padding-left: 1.5rem;
-        }
-        .markdown-content li {
-          margin: 0.5rem 0;
-          list-style-type: disc;
-        }
-        .markdown-content pre {
-          background: var(--foreground);
-          color: var(--background);
-          padding: 1rem;
-          border-radius: 0.5rem;
-          overflow-x: auto;
-          margin: 1.5rem 0;
-        }
-        .markdown-content code {
-          font-family: 'Geist Mono', monospace;
-        }
-        .markdown-content .inline-code {
-          background: rgba(var(--foreground-rgb), 0.1);
-          padding: 0.125rem 0.25rem;
-          border-radius: 0.25rem;
-          font-size: 0.875em;
-        }
-        .markdown-content strong {
-          font-weight: bold;
-        }
-        .markdown-content em {
-          font-style: italic;
-        }
-      `}</style>
     </div>
   )
 } 
