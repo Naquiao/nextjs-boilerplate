@@ -1,0 +1,23 @@
+name: Dashboard Page Loads with Statistics and Quick Actions
+page: Dashboard
+page_path: app/dashboard/page.tsx
+task: Verify that the dashboard page loads with all expected elements and quick action
+  links work properly
+steps:
+- Navigate to the dashboard page
+- 'Verify that four statistics cards are displayed with titles: ''Total Users'', ''Active
+  Sessions'', ''Page Views'', and ''Bounce Rate'''
+- Verify that each statistics card shows a value and percentage change
+- Verify that the Quick Actions card is displayed with 4 buttons
+- Click on the 'Create New Blog Post' button
+- Verify navigation to the blog page
+- Navigate back to the dashboard page
+- Click on the 'Manage Users' button
+- Verify navigation to the users dashboard page
+- Navigate back to the dashboard page
+- Verify that the Recent Activity card shows 4 activity items
+- Verify that the Performance Overview section is displayed
+- Verify that three system status cards are displayed showing operational status
+expected_result: The dashboard page should display statistics cards, quick action
+  buttons, recent activity, and system status information. Quick action links should
+  navigate to their respective pages.

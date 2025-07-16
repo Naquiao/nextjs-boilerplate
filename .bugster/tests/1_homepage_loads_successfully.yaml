@@ -4,6 +4,11 @@ page_path: app/page.tsx
 task: Verify the homepage loads correctly
 steps:
 - Navigate to the homepage ('/')
-- Verify the page loads without errors
-- Confirm the page content is visible
-expected_result: Homepage should load and display its content properly
+- Verify the hero section loads with 'Next.js Boilerplate' heading
+- 'Verify the presence of two buttons: ''Get Started'' and ''View Examples'''
+- Scroll down to check the features section with 6 feature cards
+- Verify each feature card has a title and description
+- Scroll to the CTA section with 'Ready to Build Something Amazing?' heading
+- Confirm the presence of 'Get in Touch' and 'View Dashboard' buttons
+expected_result: Homepage should load with a hero section, features section with cards,
+  and a CTA section

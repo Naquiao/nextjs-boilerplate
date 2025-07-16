@@ -4,7 +4,11 @@ page_path: app/page.tsx
 task: Verify the custom fonts (Geist and Geist Mono) load correctly
 steps:
 - Navigate to the homepage ('/')
-- Inspect text elements on the page
-- Verify text is rendered with the Geist font family
-- Verify any monospace text is rendered with the Geist Mono font family
-expected_result: Text elements should display using the Geist and Geist Mono fonts
+- Inspect heading elements in the hero section (h1 with 'Next.js Boilerplate')
+- Verify headings are rendered with the Geist font family
+- Inspect paragraph text in the features section
+- Verify paragraph text is rendered with the Geist font family
+- Inspect feature cards and card titles
+- Verify card text content uses the Geist font family consistently
+expected_result: Text elements in different sections should display using the Geist
+  font for regular text and headings
