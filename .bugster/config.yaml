@@ -2,4 +2,4 @@ base_url: http://localhost:3000
 credentials: []
 project_id: YTHCadnOouqiBxcCNgk3
 project_name: nextjs-boilerplate
-x-vercel-protection-bypass: ''
+x-vercel-protection-bypass: 'cAMkvRnYRtWMNXQrQGLdrgv3qFAKNogJ'
