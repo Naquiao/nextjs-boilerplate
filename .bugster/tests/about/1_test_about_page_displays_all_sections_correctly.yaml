@@ -1,0 +1,20 @@
+name: Test About page displays all sections correctly
+page: AboutPage
+page_path: app/about/page.tsx
+task: Verify that the About page correctly displays all its sections and components
+steps:
+- Navigate to the About page
+- Verify the hero section displays with the title 'About This Boilerplate' and a description
+- Verify the mission section is displayed with a Card component containing the mission
+  text
+- Verify the technologies section displays 5 technology cards (Next.js 15, React 19,
+  TypeScript, Tailwind CSS v4, Geist Font)
+- Verify each technology card shows a name, category badge, and description
+- Verify the 'What's Included' section displays with 6 features split into two columns
+- Verify each feature has a checkmark icon, title, and description
+- Verify the CTA section at the bottom displays with a title and two buttons
+- Click the 'Contact Us' button and verify navigation to the contact page
+- Navigate back to the About page
+- Click the 'View Examples' button and verify navigation to the blog page
+expected_result: All sections of the About page should be displayed correctly including
+  hero, mission, technologies, features, and CTA sections

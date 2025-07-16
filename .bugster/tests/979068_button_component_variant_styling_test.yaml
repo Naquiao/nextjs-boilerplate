@@ -1,0 +1,18 @@
+name: Button Component Variant Styling Test
+page: UI Components
+page_path: app/not-found.tsx
+task: Verify that the Button component renders correctly with different variants
+steps:
+- Navigate to the page containing the Button component
+- Locate a primary Button on the page
+- Verify the primary Button has the correct styling classes (bg-foreground text-background)
+- Locate a secondary Button on the page (if available)
+- Verify the secondary Button has the correct styling classes (bg-background text-foreground
+  border border-foreground/20)
+- Locate an outline Button on the page (if available)
+- Verify the outline Button has the correct styling classes (border border-foreground/20
+  bg-transparent)
+- Locate a ghost Button on the page (if available)
+- Verify the ghost Button has the correct styling classes
+expected_result: Each Button variant should display with the correct styling according
+  to its variant type
