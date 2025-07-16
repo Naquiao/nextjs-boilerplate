@@ -30,7 +30,7 @@ const features = [
 ];
 
 export default function Home() {
-  return (
+  return ( 
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative px-4 py-20 sm:px-6 lg:px-8">
