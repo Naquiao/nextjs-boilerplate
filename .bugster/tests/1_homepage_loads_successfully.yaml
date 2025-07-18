@@ -5,5 +5,8 @@ task: Verify the homepage loads correctly
 steps:
 - Navigate to the homepage ('/')
 - Verify the page loads without errors
-- Confirm the page content is visible
-expected_result: Homepage should load and display its content properly
+- Check that the hero section is visible
+- Confirm all main content sections are displayed
+- Verify that navigation elements are accessible
+expected_result: Homepage should load and display its content properly with all sections
+  rendered correctly
