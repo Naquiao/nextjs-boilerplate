@@ -10,5 +10,6 @@ steps:
 - Verify paragraph text is rendered with the Geist font family
 - Inspect feature cards and card titles
 - Verify card text content uses the Geist font family consistently
+- Check that spacing and layout remain intact after code formatting changes
 expected_result: Text elements in different sections should display using the Geist
-  font for regular text and headings
+  font for regular text and headings, with proper spacing maintained after code restructuring

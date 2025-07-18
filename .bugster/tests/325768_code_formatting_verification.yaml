@@ -1,0 +1,15 @@
+name: Code Formatting Verification
+page: Homepage
+page_path: app/page.tsx
+task: Verify that the code formatting changes don't affect the homepage rendering
+steps:
+- Navigate to the homepage ('/')
+- Verify the hero section loads correctly with 'Next.js Boilerplate' heading
+- Check that the two buttons ('Get Started' and 'View Examples') are properly aligned
+- Verify the features section displays all 6 feature cards in the correct grid layout
+- Ensure there are no visual regressions or layout shifts compared to the previous
+  version
+- Verify that all content is properly contained within the flex-col container
+- Check that all interactive elements like buttons are functioning correctly
+expected_result: The homepage should render exactly as before despite the code formatting
+  changes
