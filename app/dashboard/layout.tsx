@@ -10,7 +10,7 @@ const sidebarItems = [
   { name: 'Users', href: '/dashboard/users', icon: '👥' },
   { name: 'Settings', href: '/dashboard/settings', icon: '⚙️' },
 ]
-
+ 
 export default function DashboardLayout({
   children,
 }: {
