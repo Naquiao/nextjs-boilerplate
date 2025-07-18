@@ -5,10 +5,10 @@ task: Verify the homepage displays correctly on different screen sizes
 steps:
 - Navigate to the homepage ('/')
 - Resize the browser to mobile dimensions (e.g., 375x667)
-- Verify the layout adapts correctly
+- Verify the layout adapts correctly with the flex column structure
 - Resize the browser to tablet dimensions (e.g., 768x1024)
-- Verify the layout adapts correctly
+- Verify the layout adapts correctly with the flex column structure
 - Resize the browser to desktop dimensions (e.g., 1920x1080)
-- Verify the layout adapts correctly
+- Verify the layout adapts correctly with the flex column structure
 expected_result: Homepage should adjust layout appropriately for mobile, tablet, and
   desktop viewports
