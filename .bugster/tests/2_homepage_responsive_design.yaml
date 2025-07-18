@@ -4,6 +4,7 @@ page_path: app/page.tsx
 task: Verify the homepage displays correctly on different screen sizes
 steps:
 - Navigate to the homepage ('/')
+- Verify the page content is wrapped in a flex-col container
 - Resize the browser to mobile dimensions (e.g., 375x667)
 - Verify the hero section displays correctly with stacked buttons
 - Verify the features section displays in a single column layout
@@ -18,4 +19,4 @@ steps:
 - Verify the CTA section maintains proper spacing and horizontal button layout
 expected_result: Homepage should display the hero section, features section, and CTA
   section appropriately for mobile, tablet, and desktop viewports with correct layout
-  changes for each screen size
+  changes for each screen size using the flex-col container wrapper
