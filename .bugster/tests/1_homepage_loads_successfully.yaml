@@ -5,5 +5,8 @@ task: Verify the homepage loads correctly
 steps:
 - Navigate to the homepage ('/')
 - Verify the page loads without errors
-- Confirm the page content is visible
-expected_result: Homepage should load and display its content properly
+- Confirm the main content container with class 'flex flex-col' is visible
+- Verify the Hero Section is present
+- Check that all page sections render correctly
+expected_result: Homepage should load and display its content properly with all sections
+  visible
