@@ -1,0 +1,10 @@
+name: Blog list page navigation
+page: /blog
+page_path: app/blog/page.tsx
+task: Navigate from blog list to a specific blog post
+steps:
+- Navigate to the Blog page
+- Verify blog post cards are displayed
+- Click on the first blog post card
+- Verify user is redirected to the specific blog post page
+expected_result: User should be able to click on a blog post and view its details
