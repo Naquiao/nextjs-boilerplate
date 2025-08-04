@@ -1,0 +1,10 @@
+name: Home page to dashboard navigation test
+page: /
+page_path: app/page.tsx
+task: Verify navigation to dashboard from home page
+steps:
+- Navigate to the home page
+- Look for a 'Dashboard' or 'Get Started' button
+- Click on the button
+- Verify the URL changes to '/dashboard'
+expected_result: User should be able to navigate to the dashboard page

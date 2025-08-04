@@ -1,0 +1,12 @@
+name: Home page navigation links test
+page: /
+page_path: app/page.tsx
+task: Verify navigation links on the home page
+steps:
+- Navigate to the home page
+- Click on the 'About' link in the navigation bar
+- Verify the URL changes to '/about'
+- Navigate back to the home page
+- Click on the 'Blog' link in the navigation bar
+- Verify the URL changes to '/blog'
+expected_result: All navigation links should direct to the correct pages
