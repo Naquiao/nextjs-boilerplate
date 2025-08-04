@@ -1,0 +1,9 @@
+name: Dashboard page content test
+page: /dashboard
+page_path: app/dashboard/page.tsx
+task: Verify dashboard page displays correct content
+steps:
+- Navigate to the '/dashboard' page
+- Verify dashboard title and content are displayed
+- Verify any dashboard cards or sections are properly rendered
+expected_result: Dashboard page should load with proper content and functionality

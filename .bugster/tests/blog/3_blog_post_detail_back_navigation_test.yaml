@@ -1,0 +1,10 @@
+name: Blog post detail back navigation test
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify navigation back to blog listing from a blog post
+steps:
+- Navigate to a specific blog post at '/blog/[slug]'
+- Look for a 'Back' or 'Return to blog' button
+- Click on the button
+- Verify the URL changes to '/blog'
+expected_result: User should be able to navigate back to the blog listing page
