@@ -1,0 +1,9 @@
+name: About page information display
+page: /about
+page_path: app/about/page.tsx
+task: Verify about page content display
+steps:
+- Navigate to the about page
+- Verify about page title and content are displayed
+- Verify any links on the page are clickable
+expected_result: About page should display company information and relevant links
