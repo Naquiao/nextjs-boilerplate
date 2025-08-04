@@ -1,0 +1,14 @@
+name: Responsive Design Test
+page: /
+page_path: app/page.tsx
+task: Test responsive design across different viewport sizes
+steps:
+- Navigate to the homepage
+- Resize browser to mobile viewport size (e.g., 375px width)
+- Verify layout adjusts appropriately for mobile
+- Verify navigation is accessible (possibly via hamburger menu)
+- Resize browser to tablet viewport size (e.g., 768px width)
+- Verify layout adjusts appropriately for tablet
+- Resize browser to desktop viewport size (e.g., 1440px width)
+- Verify layout displays properly for desktop
+expected_result: Website should adapt layout for mobile, tablet and desktop viewports

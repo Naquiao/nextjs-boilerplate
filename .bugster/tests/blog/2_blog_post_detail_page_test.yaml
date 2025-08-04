@@ -1,0 +1,14 @@
+name: Blog Post Detail Page Test
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Test individual blog post page functionality
+steps:
+- Navigate to the Blog page
+- Click on a specific blog post
+- Verify the blog post detail page loads with the correct content
+- Verify the page shows the blog post title and full content
+- Verify the back button is present
+- Click on the back button
+- Verify navigation back to the blog listing page
+expected_result: Blog post detail page should display the full content of a specific
+  blog post
