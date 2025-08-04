@@ -1,0 +1,13 @@
+name: Home page navigation to main sections
+page: /
+page_path: app/page.tsx
+task: Verify navigation from homepage to main sections
+steps:
+- Load the homepage
+- Verify navigation links are visible
+- Click on the About link
+- Verify redirection to the About page
+- Navigate back to homepage
+- Click on the Blog link
+- Verify redirection to the Blog page
+expected_result: User can navigate to all main sections from the homepage

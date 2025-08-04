@@ -1,0 +1,11 @@
+name: Responsive design - Mobile view
+page: /
+page_path: app/page.tsx
+task: Verify responsive design on mobile viewport
+steps:
+- Resize browser to mobile viewport dimensions (e.g., 375px width)
+- Verify navigation transforms to mobile-friendly format (hamburger menu)
+- Open mobile navigation menu if applicable
+- Verify all navigation links are accessible
+- Navigate to different pages and verify content layout is mobile-optimized
+expected_result: Website layout adapts correctly to mobile screen size

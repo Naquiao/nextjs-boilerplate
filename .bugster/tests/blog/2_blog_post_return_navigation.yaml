@@ -1,0 +1,10 @@
+name: Blog post return navigation
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify navigation back to blog listing from individual post
+steps:
+- Navigate to the Blog page
+- Click on a blog post to view details
+- Locate and click the Back button or link
+- Verify return to the blog listing page
+expected_result: User can return to blog listing from individual post
