@@ -1,0 +1,12 @@
+name: Individual blog post display
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Test individual blog post page rendering
+steps:
+- Navigate to a specific blog post page
+- Verify blog post title and content are displayed
+- Verify 'Back to blog' link is present
+- Click on 'Back to blog' link
+- Verify redirection to the blog listing page
+expected_result: Single blog post page should display the full content and navigation
+  options
