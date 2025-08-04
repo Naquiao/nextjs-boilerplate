@@ -1,0 +1,12 @@
+name: Theme Toggle Test
+page: /
+page_path: app/page.tsx
+task: Test the theme toggle functionality
+steps:
+- Navigate to the homepage
+- Note the current theme (light or dark)
+- Click on the theme toggle button in the navigation
+- Verify the theme changes to the opposite mode (light to dark or dark to light)
+- Click the toggle button again
+- Verify the theme switches back to the original mode
+expected_result: Theme should switch between light and dark mode when toggled
