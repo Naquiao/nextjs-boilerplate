@@ -1,0 +1,11 @@
+name: Blog listing navigation
+page: /blog
+page_path: app/blog/page.tsx
+task: Verify blog listing and navigation to individual blog posts
+steps:
+- Navigate to the blog page
+- Verify blog post listings are displayed
+- Click on a blog post title or read more link
+- Verify navigation to the individual blog post page
+expected_result: User should see blog listings and be able to navigate to individual
+  posts

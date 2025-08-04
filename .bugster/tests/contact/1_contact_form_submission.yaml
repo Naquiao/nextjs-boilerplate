@@ -1,0 +1,10 @@
+name: Contact form submission
+page: /contact
+page_path: app/contact/page.tsx
+task: Verify contact form can be filled out and submitted
+steps:
+- Navigate to the contact page
+- Fill out all required fields in the contact form
+- Click the submit button
+- Verify success message appears after submission
+expected_result: Form submission should be successful and show confirmation message

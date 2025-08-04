@@ -1,0 +1,10 @@
+name: About page information display
+page: /about
+page_path: app/about/page.tsx
+task: Verify about page displays correct information
+steps:
+- Navigate to the about page
+- Verify all about page sections load correctly
+- Check for any interactive elements and test their functionality
+- Verify any links on the about page work correctly
+expected_result: About page should display company/project information correctly

@@ -1,0 +1,10 @@
+name: Error page display
+page: /
+page_path: app/error.tsx
+task: Verify error boundary catches and displays errors properly
+steps:
+- Trigger an error condition in the application (e.g., break API request)
+- Verify error boundary catches the error
+- Verify error page displays with appropriate message
+- Test any retry or reset functionality on the error page
+expected_result: Error page should display when an error occurs with options to recover

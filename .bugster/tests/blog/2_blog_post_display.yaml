@@ -1,0 +1,11 @@
+name: Blog post display
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify individual blog post displays correctly
+steps:
+- Navigate to the blog page
+- Click on a specific blog post
+- Verify the blog post content loads with correct title and content
+- Click the back button and verify navigation back to blog listing
+expected_result: Individual blog post should display with title, content and back
+  button
