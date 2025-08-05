@@ -1,0 +1,10 @@
+name: Loading State Test
+page: /
+page_path: app/loading.tsx
+task: Verify loading state is displayed during page transitions
+steps:
+- Navigate to the homepage
+- Initiate navigation to another page (e.g., click on Blog link)
+- Observe if a loading indicator or skeleton is displayed during the transition
+- Verify the destination page loads correctly after the loading state
+expected_result: Loading state should be visible during navigation between pages

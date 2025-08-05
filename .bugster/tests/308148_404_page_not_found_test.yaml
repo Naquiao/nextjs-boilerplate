@@ -1,0 +1,12 @@
+name: 404 Page Not Found Test
+page: /nonexistent-page
+page_path: app/not-found.tsx
+task: Verify 404 page is displayed for non-existent routes
+steps:
+- Navigate to a non-existent URL (e.g., /nonexistent-page)
+- Verify the custom 404 page is displayed
+- Verify there is a way to navigate back to the homepage
+- Click on the link/button to return to the homepage
+- Verify successful navigation back to the homepage
+expected_result: Custom 404 page should be displayed when navigating to a non-existent
+  URL
