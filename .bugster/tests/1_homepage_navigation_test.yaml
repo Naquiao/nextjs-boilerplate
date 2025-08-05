@@ -1,0 +1,10 @@
+name: Homepage navigation test
+page: /
+page_path: app/page.tsx
+task: Verify user can navigate to all main sections from homepage
+steps:
+- Navigate to the homepage
+- Verify navigation menu is visible
+- Click on each navigation link (About, Blog, Contact, Dashboard)
+- Verify user is redirected to the correct page for each link
+expected_result: User should be able to access all main navigation links

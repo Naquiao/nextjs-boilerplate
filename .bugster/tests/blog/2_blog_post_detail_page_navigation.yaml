@@ -1,0 +1,11 @@
+name: Blog post detail page navigation
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify navigation to and display of individual blog posts
+steps:
+- Navigate to the blog listing page
+- Click on a specific blog post
+- Verify URL changes to include the blog post slug
+- Verify blog post title and content are displayed correctly
+- Verify navigation back to the blog listing page works
+expected_result: Individual blog post pages should load with correct content
