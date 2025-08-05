@@ -1,0 +1,11 @@
+name: Mobile responsive navigation
+page: /
+page_path: app/page.tsx
+task: Verify navigation is responsive on mobile viewport
+steps:
+- Visit the homepage
+- Resize viewport to mobile dimensions
+- Verify navigation collapses to a mobile-friendly format
+- Test opening and closing mobile navigation menu
+- Verify all navigation links are accessible in mobile view
+expected_result: Navigation should adapt to mobile view with menu toggle

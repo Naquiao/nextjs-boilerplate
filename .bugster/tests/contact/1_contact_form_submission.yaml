@@ -1,0 +1,12 @@
+name: Contact form submission
+page: /contact
+page_path: app/contact/page.tsx
+task: Verify contact form validation and submission
+steps:
+- Navigate to the contact page
+- Verify the contact form is displayed with input fields
+- Submit the empty form and verify validation errors
+- Fill in all required fields with valid data
+- Submit the completed form
+- Verify success message is displayed after submission
+expected_result: Form should validate inputs and show success message upon submission
