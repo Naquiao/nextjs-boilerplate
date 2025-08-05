@@ -1,0 +1,12 @@
+name: Submit contact form with invalid email
+page: /contact
+page_path: app/contact/page.tsx
+task: Test contact form validation for invalid email
+steps:
+- Navigate to the Contact page
+- Enter valid name in the name field
+- Enter invalid email format (e.g., 'notanemail') in the email field
+- Enter message in the message field
+- Click the Submit button
+- Verify error message appears for invalid email
+expected_result: Form should show validation error for invalid email format

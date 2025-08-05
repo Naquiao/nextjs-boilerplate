@@ -1,0 +1,19 @@
+name: Navigate to each main section from homepage
+page: /
+page_path: app/page.tsx
+task: Test navigation from homepage to main sections
+steps:
+- Load the homepage
+- Click on the About link in the navigation
+- Verify redirected to About page
+- Navigate back to homepage
+- Click on the Blog link in the navigation
+- Verify redirected to Blog page
+- Navigate back to homepage
+- Click on the Contact link in the navigation
+- Verify redirected to Contact page
+- Navigate back to homepage
+- Click on the Dashboard link in the navigation
+- Verify redirected to Dashboard page
+expected_result: User should be able to navigate to About, Blog, Contact and Dashboard
+  pages

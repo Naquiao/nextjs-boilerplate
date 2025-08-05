@@ -1,0 +1,10 @@
+name: View about page information
+page: /about
+page_path: app/about/page.tsx
+task: Test about page content loading
+steps:
+- Navigate to the About page
+- Verify page title and headings are displayed correctly
+- Verify about content text is visible
+- Check for any external links or buttons and verify they are clickable
+expected_result: About page should display complete information about the site/company

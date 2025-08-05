@@ -1,0 +1,10 @@
+name: Access dashboard page direct URL
+page: /dashboard
+page_path: app/dashboard/page.tsx
+task: Test direct access to dashboard page
+steps:
+- Navigate directly to the Dashboard page URL
+- Verify dashboard content loads correctly
+- Verify dashboard UI elements are visible and properly formatted
+expected_result: Dashboard page should load correctly with its content when accessed
+  directly
