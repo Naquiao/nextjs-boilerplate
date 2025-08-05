@@ -1,0 +1,11 @@
+name: Responsive design on mobile
+page: /
+page_path: app/page.tsx
+task: Verify that the website is responsive on mobile devices
+steps:
+- Resize the browser to mobile dimensions (e.g., 375x667)
+- Navigate to the home page
+- Verify that the layout adjusts appropriately for mobile
+- Check that the navigation menu changes to a mobile-friendly format
+- Navigate to other pages and verify their mobile responsiveness
+expected_result: The website should adapt its layout for mobile screens
