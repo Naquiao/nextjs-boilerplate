@@ -1,0 +1,11 @@
+name: Submit contact form with empty required fields
+page: /contact
+page_path: app/contact/page.tsx
+task: Test contact form validation for empty required fields
+steps:
+- Navigate to the Contact page
+- Leave all fields empty
+- Click the Submit button
+- Verify error messages appear for required fields
+expected_result: Form should prevent submission and display errors for empty required
+  fields
