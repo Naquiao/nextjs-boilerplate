@@ -1,0 +1,13 @@
+name: Contact form validation
+page: /contact
+page_path: app/contact/page.tsx
+task: Verify that the contact form validates inputs correctly
+steps:
+- Navigate to the Contact page
+- Leave all fields empty and click Submit
+- Verify that validation error messages are displayed
+- Fill in only the name field and click Submit
+- Verify that validation errors are shown for email and message
+- Fill in an invalid email format and click Submit
+- Verify that an email validation error is displayed
+expected_result: Form should show validation errors for invalid inputs

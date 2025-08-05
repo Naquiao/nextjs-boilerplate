@@ -1,0 +1,12 @@
+name: Home page navigation links work correctly
+page: /
+page_path: app/page.tsx
+task: Verify that navigation links on the home page work correctly
+steps:
+- Navigate to the home page
+- Find and click on the About link
+- Verify that the user is redirected to the About page
+- Navigate back to the home page
+- Find and click on the Blog link
+- Verify that the user is redirected to the Blog page
+expected_result: User should be able to navigate to different sections of the website

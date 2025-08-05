@@ -1,0 +1,11 @@
+name: 404 page display
+page: /nonexistent-page
+page_path: app/not-found.tsx
+task: Verify that the 404 page displays correctly for non-existent routes
+steps:
+- Navigate to a URL that doesn't exist in the application (e.g., /nonexistent-page)
+- Verify that the 404 page is displayed
+- Verify that the 404 page contains helpful information
+- Check that any navigation options on the 404 page work correctly
+expected_result: A user-friendly 404 page should be displayed when navigating to a
+  non-existent route
