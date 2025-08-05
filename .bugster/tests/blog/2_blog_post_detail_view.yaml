@@ -1,0 +1,13 @@
+name: Blog post detail view
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Test viewing a specific blog post
+steps:
+- Navigate to the Blog page
+- Click on a blog post title or 'Read more' link
+- Verify the URL changes to include the blog post slug
+- Verify the blog post title is displayed
+- Verify the blog post content is displayed
+- Verify a 'Back to Blog' link is present
+expected_result: Blog post detail page should display the full content of the selected
+  post

@@ -1,0 +1,13 @@
+name: Home page navigation
+page: /
+page_path: app/page.tsx
+task: Test navigation from home page to other main sections
+steps:
+- Visit the home page
+- Verify the navigation menu is displayed
+- Click on the 'About' link in the navigation
+- Verify user is redirected to the About page
+- Navigate back to the home page
+- Click on the 'Blog' link
+- Verify user is redirected to the Blog page
+expected_result: User should be able to navigate to each main section of the website
