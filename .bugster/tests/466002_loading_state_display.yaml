@@ -1,0 +1,9 @@
+name: Loading state display
+page: /dashboard
+page_path: app/loading.tsx
+task: Verify loading state is displayed when content is loading
+steps:
+- Navigate to a page with potential loading state (e.g., dashboard)
+- Observe if loading indicator is shown before content appears
+- Verify loading indicator is replaced by actual content when loading completes
+expected_result: Loading indicator should be displayed while page content is loading

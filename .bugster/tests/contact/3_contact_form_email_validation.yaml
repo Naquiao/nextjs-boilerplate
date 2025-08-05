@@ -1,0 +1,11 @@
+name: Contact form email validation
+page: /contact
+page_path: app/contact/page.tsx
+task: Verify contact form email validation
+steps:
+- Navigate to the contact page
+- Fill other required fields with valid data
+- Enter an invalid email format (e.g., 'notanemail')
+- Submit the form
+- Verify error message is displayed for invalid email format
+expected_result: Form should validate email format

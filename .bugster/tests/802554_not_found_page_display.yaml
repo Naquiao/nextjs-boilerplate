@@ -1,0 +1,11 @@
+name: Not found page display
+page: /non-existent-route
+page_path: app/not-found.tsx
+task: Verify not found page is displayed for non-existent routes
+steps:
+- Navigate to a non-existent route (e.g., '/non-existent-route')
+- Verify not found page is displayed
+- Verify not found message is displayed
+- Check that navigation back to valid pages works
+expected_result: Not found page should be displayed when navigating to a non-existent
+  route
