@@ -1,0 +1,9 @@
+name: Blog post back navigation
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Navigate back from blog post detail to blog list
+steps:
+- Navigate to a specific blog post detail page
+- Click on the back button or 'Back to Blog' link
+- Verify that the blog listing page is displayed
+expected_result: User should return to the blog listing page

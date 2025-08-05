@@ -1,0 +1,9 @@
+name: Homepage navigation to About page
+page: /
+page_path: app/page.tsx
+task: Navigate from homepage to About page
+steps:
+- Visit the homepage
+- Find and click on the About link in the navigation
+- Verify that the About page content is displayed
+expected_result: User should be redirected to the About page

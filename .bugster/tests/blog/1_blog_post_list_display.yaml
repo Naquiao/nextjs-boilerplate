@@ -1,0 +1,9 @@
+name: Blog post list display
+page: /blog
+page_path: app/blog/page.tsx
+task: View the list of blog posts
+steps:
+- Navigate to the blog page
+- Verify that blog post cards are displayed
+- Verify that each card has a title and content preview
+expected_result: Blog posts should be displayed as cards with titles and content previews

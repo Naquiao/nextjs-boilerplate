@@ -1,0 +1,11 @@
+name: Navigation menu accessibility
+page: /
+page_path: app/page.tsx
+task: Test navigation menu keyboard accessibility
+steps:
+- Visit the homepage
+- Press the Tab key to focus on navigation elements
+- Use Tab and Shift+Tab to move between navigation items
+- Press Enter when a navigation item is focused
+- Verify that the selected page loads correctly
+expected_result: User should be able to navigate through menu items using keyboard
