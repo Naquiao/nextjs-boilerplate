@@ -1,0 +1,10 @@
+name: Blog Listing Test
+page: /blog
+page_path: app/blog/page.tsx
+task: Verify blog posts are displayed
+steps:
+- Navigate to Blog page
+- Verify blog post cards are displayed
+- Verify each card has a title and brief content
+- Verify each card has a 'Read More' link
+expected_result: Blog listing page should display available blog posts

@@ -1,0 +1,11 @@
+name: Blog Post Detail Test
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify blog post detail page displays correct content
+steps:
+- Navigate to a specific blog post URL
+- Verify the blog post title is displayed
+- Verify the full content of the blog post is displayed
+- Verify the 'Back to Blog' link is present
+expected_result: Blog post detail page should display the full content of the selected
+  post

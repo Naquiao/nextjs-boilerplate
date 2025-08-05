@@ -1,0 +1,10 @@
+name: Homepage Navigation Test
+page: /
+page_path: app/page.tsx
+task: Verify navigation links and buttons on homepage
+steps:
+- Load the homepage
+- Verify navigation menu is visible
+- Click on 'About' link in navigation
+- Verify navigation to About page is successful
+expected_result: User should be able to navigate to other pages from the homepage
