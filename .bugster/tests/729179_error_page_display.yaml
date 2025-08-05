@@ -1,0 +1,11 @@
+name: Error page display
+page: /error-page-test
+page_path: app/error.tsx
+task: Test error page display for non-existent routes
+steps:
+- Attempt to navigate to a non-existent route (e.g., '/non-existent-page')
+- Verify the error page is displayed
+- Verify the error message is displayed
+- Verify there is a way to navigate back to a valid page
+expected_result: Error page should display with appropriate messaging when visiting
+  an invalid route

@@ -1,0 +1,10 @@
+name: Not found page display
+page: /non-existent-page
+page_path: app/not-found.tsx
+task: Test 404 page display for non-existent routes
+steps:
+- Attempt to navigate to a non-existent route (e.g., '/does-not-exist')
+- Verify the 404 page is displayed
+- Verify the not found message is displayed
+- Verify there is a way to navigate back to the home page
+expected_result: Not found page should display when visiting a non-existent route
