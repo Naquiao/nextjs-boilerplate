@@ -1,0 +1,13 @@
+name: Cross-page navigation flow
+page: /
+page_path: app/page.tsx
+task: Verify seamless navigation between all main pages
+steps:
+- Start on the homepage
+- Navigate to About page
+- Navigate to Blog page
+- Navigate to Contact page
+- Navigate to Dashboard page
+- Return to Homepage
+- Verify all pages loaded correctly during the flow
+expected_result: User should be able to navigate to all main sections of the site
