@@ -1,0 +1,11 @@
+name: Error Handling Test
+page: /
+page_path: app/error.tsx
+task: Verify error page displays correctly when errors occur
+steps:
+- Trigger an error condition (e.g., network error or rendering error)
+- Verify custom error page is displayed
+- Verify 'Try Again' or equivalent button is present
+- Click the retry button
+- Verify the page attempts to reload or recover
+expected_result: Custom error page should be displayed with option to retry

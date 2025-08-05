@@ -1,0 +1,11 @@
+name: Responsive Design Test - Mobile View
+page: /
+page_path: app/page.tsx
+task: Verify responsive design on mobile viewport
+steps:
+- Resize browser to mobile viewport dimensions (e.g., 375x667)
+- Load the homepage
+- Verify navigation menu adapts to mobile view (hamburger menu)
+- Open mobile navigation menu
+- Verify all navigation links are accessible in mobile view
+expected_result: Page should adapt layout for mobile viewport

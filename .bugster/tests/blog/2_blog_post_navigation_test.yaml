@@ -1,0 +1,10 @@
+name: Blog Post Navigation Test
+page: /blog
+page_path: app/blog/page.tsx
+task: Verify navigation to individual blog posts
+steps:
+- Navigate to Blog page
+- Click on 'Read More' link of the first blog post
+- Verify navigation to the blog post detail page
+- Verify the blog post content is displayed
+expected_result: Clicking on a blog post should navigate to its detail page
