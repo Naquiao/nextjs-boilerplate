@@ -1,0 +1,12 @@
+name: Mobile responsive layout
+page: /
+page_path: app/page.tsx
+task: Verify responsive layout on mobile viewport
+steps:
+- Visit the homepage
+- Resize browser to mobile viewport dimensions
+- Verify navigation collapses to mobile menu
+- Verify page content reflows appropriately
+- Open mobile menu if present
+- Verify all navigation links are accessible
+expected_result: Page layout adjusts appropriately for mobile screen sizes

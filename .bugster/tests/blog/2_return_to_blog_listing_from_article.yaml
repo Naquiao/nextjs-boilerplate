@@ -1,0 +1,9 @@
+name: Return to blog listing from article
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Navigate back to blog listing from individual article
+steps:
+- Navigate to a specific blog post page
+- Locate and click the back or return to blog link
+- Verify navigation back to the main blog listing page
+expected_result: User can return to the main blog listing page
