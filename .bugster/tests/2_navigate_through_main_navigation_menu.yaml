@@ -1,0 +1,11 @@
+name: Navigate through main navigation menu
+page: /
+page_path: app/page.tsx
+task: Verify all main navigation links work correctly
+steps:
+- Navigate to the homepage
+- Identify all navigation links in the header
+- Click on each navigation link
+- Verify each link redirects to the correct page
+- Verify navigation is consistent across all pages
+expected_result: User can navigate to all main sections of the website

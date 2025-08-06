@@ -1,0 +1,11 @@
+name: Submit contact form with missing required fields
+page: /contact
+page_path: app/contact/page.tsx
+task: Verify contact form validation for required fields
+steps:
+- Navigate to the contact page
+- Leave one or more required fields empty
+- Click the submit button
+- Verify validation errors are displayed for empty fields
+- Verify the form does not submit
+expected_result: Form shows validation errors and prevents submission
