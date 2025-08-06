@@ -1,0 +1,12 @@
+name: Blog post detail view
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify individual blog post detail view
+steps:
+- Navigate to the blog page
+- Click on a blog post title or read more link
+- Verify blog post detail page loads
+- Verify full content of the blog post is displayed
+- Verify back to blog button exists and works
+expected_result: Blog post detail page should display full content of the selected
+  post
