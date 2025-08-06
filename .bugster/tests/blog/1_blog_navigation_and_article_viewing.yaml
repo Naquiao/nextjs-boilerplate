@@ -1,0 +1,10 @@
+name: Blog Navigation and Article Viewing
+page: /blog
+page_path: app/blog/page.tsx
+task: Browse blog posts and view a specific article
+steps:
+- Navigate to the Blog page
+- Verify that blog post cards are displayed
+- Click on a blog post card or title
+- Verify that the specific blog post page loads with the correct content
+expected_result: User should be able to view blog list and access individual articles
