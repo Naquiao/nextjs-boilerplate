@@ -1,0 +1,10 @@
+name: Home page call-to-action buttons
+page: /
+page_path: app/page.tsx
+task: Verify primary call-to-action buttons on the home page
+steps:
+- Navigate to the home page
+- Locate the main call-to-action button
+- Click on the button
+- Verify the user is directed to the expected page
+expected_result: CTA buttons should direct users to appropriate pages

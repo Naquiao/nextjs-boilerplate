@@ -1,0 +1,18 @@
+name: Home page navigation links functionality
+page: /
+page_path: app/page.tsx
+task: Verify all navigation links on the home page work correctly
+steps:
+- Navigate to the home page
+- Click on the About link in the navigation
+- Verify redirection to the About page
+- Navigate back to the home page
+- Click on the Blog link in the navigation
+- Verify redirection to the Blog page
+- Navigate back to the home page
+- Click on the Contact link in the navigation
+- Verify redirection to the Contact page
+- Navigate back to the home page
+- Click on the Dashboard link in the navigation
+- Verify redirection to the Dashboard page
+expected_result: User should be able to navigate to all main sections of the website
