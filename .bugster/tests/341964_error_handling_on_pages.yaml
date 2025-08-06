@@ -1,0 +1,11 @@
+name: Error handling on pages
+page: /
+page_path: app/error.tsx
+task: Verify error handling when page components fail
+steps:
+- Simulate an error in a component (this would require mocking an error condition)
+- Verify error page is displayed instead of crashing
+- Verify retry button exists and functions correctly
+- Verify navigation is still accessible
+expected_result: Error boundary should catch errors and display a user-friendly error
+  message
