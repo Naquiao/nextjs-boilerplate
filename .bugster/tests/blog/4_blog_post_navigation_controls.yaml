@@ -1,0 +1,10 @@
+name: Blog post navigation controls
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Test navigation controls on individual blog post pages
+steps:
+- Navigate to a specific blog post detail page
+- Locate the back button or link to return to the blog listing
+- Click on the back button/link
+- Verify navigation back to the blog listing page
+expected_result: User should be able to navigate back to the blog listing page
