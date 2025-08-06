@@ -1,0 +1,11 @@
+name: Access dashboard page
+page: /dashboard
+page_path: app/dashboard/page.tsx
+task: Verify dashboard page loads correctly
+steps:
+- Navigate to the dashboard page
+- Verify the page loads correctly
+- Verify the dashboard title is displayed
+- Verify dashboard content and widgets are displayed
+- Verify any interactive elements on the dashboard function correctly
+expected_result: Dashboard page displays with correct content and layout

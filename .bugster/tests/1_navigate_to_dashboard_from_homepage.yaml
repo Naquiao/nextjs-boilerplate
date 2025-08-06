@@ -1,0 +1,10 @@
+name: Navigate to Dashboard from Homepage
+page: /
+page_path: app/page.tsx
+task: Verify navigation from homepage to dashboard
+steps:
+- Navigate to the homepage
+- Look for a dashboard link or button
+- Click on the dashboard link/button
+- Verify user is redirected to the dashboard page
+expected_result: User is redirected to the dashboard page

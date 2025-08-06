@@ -1,0 +1,10 @@
+name: View individual blog post
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify individual blog post page displays correctly
+steps:
+- Navigate to a specific blog post URL
+- Verify the blog post title is displayed
+- Verify the blog post content is displayed
+- Verify any images or media in the post load correctly
+expected_result: Blog post page shows the full content of the selected post
