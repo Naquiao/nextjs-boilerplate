@@ -1,0 +1,10 @@
+name: About page content verification
+page: /about
+page_path: app/about/page.tsx
+task: Verify about page content and links
+steps:
+- Navigate to the About page
+- Verify page content is displayed correctly
+- Verify any links on the page are functional
+- Click on CTA buttons if present and verify they navigate to expected pages
+expected_result: About page displays correct information and functional links

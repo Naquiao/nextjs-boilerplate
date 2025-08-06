@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "timestamp": 1754511886.4919682,
+    "version": 2,
+    "git": {
+      "branch": "bugster/tests/onboarding-20250806-202443",
+      "commit": "73e2d3d0599d561b9272e5c1e186963e96b3b7cd"
+    }
+  },
+  "data": {
+    "framework": {
+      "id": "next",
+      "name": "Next.js",
+      "dir_path": "/home/bugsteruser/app/repo/"
+    },
+    "router_type": "app",
+    "stats": {
+      "fileCount": 19,
+      "routeCount": 6,
+      "apiRouteCount": 2,
+      "layoutCount": 1
+    },
+    "layouts": [
+      {
+        "name": "function",
+        "relative_file_path": "app/layout.tsx",
+        "relative_dir_path": "app",
+        "content": "import type { Metadata } from \"next\";\nimport { Geist, Geist_Mono } from \"next/font/google\";\nimport \"./globals.css\";\nimport { ThemeProvider } from \"../components/ThemeProvider\";\nimport { Navigation } from \"../components/Navigation\";\n\nconst geistSans = Geist({\n  variable: \"--font-geist-sans\",\n  subsets: [\"latin\"],\n});\n\nconst geistMono = Geist_Mono({\n  variable: \"--font-geist-mono\",\n  subsets: [\"latin\"],\n});\n\nexport const metadata: Metadata = {\n  title: \"NextJS Boilerplate - Modern Full-Stack Template\",\n  description: \"A production-ready Next.js boilerplate with TypeScript, Tailwind CSS, and modern features\",\n  keywords: [\"Next.js\", \"React\", \"TypeScript\", \"Tailwind CSS\", \"Boilerplate\"],\n  authors: [{ name: \"Your Name\" }],\n  openGraph: {\n    title: \"NextJS Boilerplate - Modern Full-Stack Template\",\n    description: \"A production-ready Next.js boilerplate with TypeScript, Tailwind CSS, and modern features\",\n    type: \"website\",\n  },\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\" suppressHydrationWarning>\n      <body\n        className={`${geistSans.variable} ${geistMono.variable} antialiased`}\n      >\n        <ThemeProvider>\n          <div className=\"min-h-screen bg-background text-foreground\">\n            <Navigation />\n            <main>{children}</main>\n          </div>\n        </ThemeProvider>\n      </body>\n    </html>\n  );\n}\n",
+        "components": [
+          "ThemeProvider",
+          "Navigation"
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "routePath": "/about",
+        "relativeFilePath": "app/about/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Link",
+          "Button",
+          "CardContent",
+          "CardHeader",
+          "Card",
+          "CardTitle"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/blog/:slug",
+        "relativeFilePath": "app/blog/[slug]/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Button",
+          "Link"
+        ],
+        "hasParams": true,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/blog",
+        "relativeFilePath": "app/blog/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Link",
+          "CardContent",
+          "CardHeader",
+          "Card",
+          "CardTitle"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/contact",
+        "relativeFilePath": "app/contact/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Button",
+          "CardContent",
+          "CardHeader",
+          "Card",
+          "Input",
+          "HTMLInputElement",
+          "CardTitle"
+        ],
+        "hasParams": false,
+        "hasForm": true,
+        "hooks": [
+          "useState"
+        ],
+        "eventHandlers": [
+          "handleSubmit",
+          "handleChange"
+        ],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/dashboard",
+        "relativeFilePath": "app/dashboard/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Link",
+          "Button",
+          "CardContent",
+          "CardHeader",
+          "Card",
+          "CardTitle"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/",
+        "relativeFilePath": "app/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Button",
+          "Link",
+          "CardContent",
+          "CardHeader",
+          "Card",
+          "CardTitle"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      }
+    ],
+    "api_routes": [
+      {
+        "routePath": "/api/contact",
+        "relativeFilePath": "app/api/contact/route.ts",
+        "methods": [
+          "POST"
+        ],
+        "hasValidation": false,
+        "deps": [
+          "NextRequest",
+          "NextResponse"
+        ]
+      },
+      {
+        "routePath": "/api/contact",
+        "relativeFilePath": "app/api/contact/route.ts",
+        "methods": [
+          "POST"
+        ],
+        "hasValidation": false,
+        "deps": [
+          "NextRequest",
+          "NextResponse"
+        ]
+      }
+    ],
+    "all_paths": [
+      "app/about/page.tsx",
+      "app/api/contact/route.ts",
+      "app/blog/[slug]/page.tsx",
+      "app/blog/page.tsx",
+      "app/contact/page.tsx",
+      "app/dashboard/layout.tsx",
+      "app/dashboard/page.tsx",
+      "app/error.tsx",
+      "app/layout.tsx",
+      "app/loading.tsx",
+      "app/not-found.tsx",
+      "app/page.tsx",
+      "components/Navigation.tsx",
+      "components/ThemeProvider.tsx",
+      "components/ui/Button.tsx",
+      "components/ui/Card.tsx",
+      "components/ui/Input.tsx",
+      "lib/blog.ts",
+      "next.config.ts"
+    ]
+  }
+}
