@@ -1,0 +1,9 @@
+name: Blog post dynamic routing test
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify dynamic routing for blog posts
+steps:
+- Navigate to a specific blog post URL (e.g., /blog/example-post)
+- Verify the correct blog post content is displayed
+- Verify the back to blog button works correctly
+expected_result: Blog post content should load correctly based on the URL slug

@@ -1,0 +1,9 @@
+name: Homepage navigation links test
+page: /
+page_path: app/page.tsx
+task: Verify navigation links on homepage
+steps:
+- Navigate to the homepage
+- Verify navigation links for About, Blog, Contact, and Dashboard are visible
+- Click on each navigation link and verify it leads to the correct page
+expected_result: User should be able to navigate to all main sections of the website
