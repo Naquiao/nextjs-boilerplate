@@ -1,0 +1,14 @@
+name: Home page navigation test
+page: /
+page_path: app/page.tsx
+task: Verify navigation to all main sections from home page
+steps:
+- Navigate to the home page
+- Click on the 'About' link in the navigation
+- Navigate back to home page
+- Click on the 'Blog' link in the navigation
+- Navigate back to home page
+- Click on the 'Contact' link in the navigation
+- Navigate back to home page
+- Click on the 'Dashboard' link in the navigation
+expected_result: All navigation links should redirect to their respective pages
