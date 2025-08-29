@@ -5,6 +5,8 @@ task: Verify dashboard page loads correctly
 steps:
 - Navigate to the dashboard page
 - Verify dashboard title is displayed
+- Verify the description shows 'Overview of your dashboard.' without 'application'
 - Verify dashboard cards and content are displayed correctly
 - Test any interactive elements on the dashboard
 expected_result: Dashboard page should display with all relevant information and components
+  including the updated description
