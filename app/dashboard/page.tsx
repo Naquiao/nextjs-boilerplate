@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Dashboard - NextJS Boilerplate",
-  description: "Overview of your application dashboard.",
-};
+  description: "Overview of your  dashboard.",
+}; 
 
 const stats = [
   {

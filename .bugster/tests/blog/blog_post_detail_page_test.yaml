@@ -1,0 +1,13 @@
+name: Blog post detail page test
+page: /blog/:slug
+page_path: app/blog/[slug]/page.tsx
+task: Verify individual blog post content is displayed correctly
+steps:
+- Navigate to the blog page
+- Click on a blog post title or 'Read more' link
+- Verify the URL changes to include the blog post slug
+- Verify the blog post title is displayed
+- Verify the full blog post content is displayed
+- Verify the 'Back to blog' link is present
+expected_result: Blog post detail page should display the full content of the selected
+  blog post

@@ -1,0 +1,12 @@
+name: Contact form submission test
+page: /contact
+page_path: app/contact/page.tsx
+task: Submit a contact form with valid information
+steps:
+- Navigate to the contact page
+- Fill in the name field with 'Test User'
+- Fill in the email field with 'test@example.com'
+- Fill in the message field with 'This is a test message'
+- Click the submit button
+- Wait for the confirmation message to appear
+expected_result: Form should submit successfully and show a confirmation message

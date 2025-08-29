@@ -1,0 +1,13 @@
+name: Navigation responsiveness test
+page: /
+page_path: app/page.tsx
+task: Test navigation menu responsiveness on mobile devices
+steps:
+- Navigate to the home page
+- Resize browser to mobile viewport size
+- Verify navigation collapses to a hamburger menu
+- Click the hamburger menu icon
+- Verify navigation links appear in dropdown
+- Click a navigation link
+- Verify navigation to the selected page
+expected_result: Navigation menu should adapt to mobile view with hamburger menu
