@@ -1,0 +1,11 @@
+name: Dashboard description text verification
+page: dashboard
+page_path: app/dashboard/page.tsx
+task: Verify the updated dashboard description text
+steps:
+- Navigate to the dashboard page
+- Locate the dashboard description text
+- Verify the text reads exactly 'Overview of your dashboard.'
+- Confirm the word 'application' is not present in the description
+expected_result: The dashboard description should display 'Overview of your dashboard.'
+  without the word 'application'
